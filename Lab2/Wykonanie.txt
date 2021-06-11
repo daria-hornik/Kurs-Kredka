@@ -1,0 +1,1 @@
+Stworzyłam drzewo dziedziczenia zwierząt i chorób. Zwierzęta dziele na psy i koty, a koty następnie na rasowe i mieszane. Choroby natomiast na infekcje i niedożywienie. 

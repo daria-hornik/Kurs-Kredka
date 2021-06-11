@@ -1,0 +1,11 @@
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab2Zadanie\DariaHornikLab2Zadanie\bin\Debug\DariaHornikLab2Zadanie.exe.config
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab2Zadanie\DariaHornikLab2Zadanie\bin\Debug\DariaHornikLab2Zadanie.exe
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab2Zadanie\DariaHornikLab2Zadanie\bin\Debug\DariaHornikLab2Zadanie.pdb
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab2Zadanie\DariaHornikLab2Zadanie\obj\Debug\DariaHornikLab2Zadanie.csprojAssemblyReference.cache
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab2Zadanie\DariaHornikLab2Zadanie\obj\Debug\DariaHornikLab2Zadanie.FormStartsPage.resources
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab2Zadanie\DariaHornikLab2Zadanie\obj\Debug\DariaHornikLab2Zadanie.Properties.Resources.resources
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab2Zadanie\DariaHornikLab2Zadanie\obj\Debug\DariaHornikLab2Zadanie.csproj.GenerateResource.cache
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab2Zadanie\DariaHornikLab2Zadanie\obj\Debug\DariaHornikLab2Zadanie.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab2Zadanie\DariaHornikLab2Zadanie\obj\Debug\DariaHornikLab2Zadanie.exe
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab2Zadanie\DariaHornikLab2Zadanie\obj\Debug\DariaHornikLab2Zadanie.pdb
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab2Zadanie\DariaHornikLab2Zadanie\obj\Debug\DariaHornikLab2Zadanie.FormPark.resources

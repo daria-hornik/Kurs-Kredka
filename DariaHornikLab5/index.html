@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <!-- metadane o wykorzystywanym kodowaniu znaków -->
+    <meta charset="UTF-8">
+    
+     <!-- ustalenie szerokości ekranu na szerkość ekranu urządzenia -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <!-- metadane mówiące o tym w jaki sposób renderować strone na IE.  -->
+    <!-- W tym przypadku renderujemy strone wersji interner explorer edge -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+     <!-- tytuł dokumentu, wyświetlany w zakłdce, na pasku kart przeglądarki -->
+	<title>Daria Hornik</title>
+	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900&amp;subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" href="./styles/style1.css" />
+</head>
+
+<body>
+	<!--ogólny pojemnik-->
+	<div class="wrapper">
+		<div class="bg"></div>
+		<!--pojemnik przechowujący nagłówek i link do kolejnych stron-->
+		<div class="middle-box">
+			<h1>Daria Hornik</h1>
+			<p>
+				<!--linki do kolejnych stron-->
+				<a href="./pages/page1.html">About me</a>&nbsp;&bull;&nbsp;
+				<a href="./pages/page2.html">Interests</a>&nbsp;&bull;&nbsp;
+				<a href="./pages/page3.html">Skills</a>
+                				
+			</p>
+			<!--pojemnik przechowujący pobrane ikony i linki do nowych stron-->
+			<div class="nav">			
+				<div class="nav-item"  id="linkedin">
+					<a class="fab fa-linkedin-in"></a>
+				</div>
+				<div class="nav-item">
+					<a href="https://github.com/Elentija" class="fab fa-github"></a>
+				</div>
+				<div class="nav-item">
+                    <a href="./pages/page4.html" class="far fa-envelope" ></a>
+                </div>
+
+			</div>
+		</div>
+	</div>
+
+	<!--importowanie pliku js-->
+	<script src="scripts/script1.js" async></script>
+</body>
+
+</html>

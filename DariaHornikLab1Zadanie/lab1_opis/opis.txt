@@ -1,0 +1,5 @@
+Symulacja banku Miraculum
+
+Symulacja przedstawia uproszczony bank, w którym po zarejestrowaniu się możemy doładowywać konto(w magiczny sposób, możemy raz podczas sesji doładować je), robić przelewy, ale tylko na rachunki, które są w tym banku. Sesja trwa 15 minut, więc po tym czasie zostaniemy automatycznie wylogowani, chyba że minutę przed zakończeniem, gdy wyświtli nam się inforamcja o kończącym się czasie, przedłużymy nasz pobyt na stronie.
+
+

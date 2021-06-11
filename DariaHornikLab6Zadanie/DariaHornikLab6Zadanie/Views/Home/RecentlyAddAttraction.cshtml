@@ -1,0 +1,42 @@
+﻿<body style="background-image: url(https://cdn.pixabay.com/photo/2018/02/15/14/37/leaf-3155438__340.jpg); background-position: center; background-repeat:repea">
+
+    @model Attraction
+    @{
+        ViewData["Title"] = "Ostatnio dodana atrakcja";
+    }
+
+    <h2>Najnowsza atrakcja Wrocławia dodana przez @ViewBag.Author</h2>
+
+    <div>
+        <h3> @Model.Name</h3>
+        <p>Obiekt znajduje się w @Model.Place</p>
+        <p>@Model.Description</p>
+
+        <hr />
+        <hr />
+        @using (Html.BeginForm("RecentlyAddAttraction", "Home", FormMethod.Post))
+        {
+
+            <!--ocen obiekt -->
+            <div class="form-group">
+                @Html.LabelFor(model => Model.Grade, htmlAttributes: new { @class = "control-label col-md-4" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => Model.Grade, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+
+
+            <!--guzik-->
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Oceń" class="btn btn-success" />
+                </div>
+            </div>
+           
+            <hr />
+        }
+    </div>
+    <div>
+        @Html.ActionLink("Powrót do strony głównej", "Index")
+    </div>
+</body>

@@ -1,0 +1,63 @@
+body {
+  overflow: hidden;
+  /*brak marginesu z żadnej strony*/
+  margin: 0;
+  padding: 0;
+  color:black;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.75;
+}
+
+/* stylowanie po clasach */
+.wrapped {
+  /* szerokośc równa 100% aktualnego rozmiaru szerokośći okna*/
+  width: 100vw;
+  /*wysokość równa 100% aktualnego rozmiaru wysokości*/
+  height: 100vh;
+  /* rodzaj wyświetlania obiektów. wymagane do ich przerzucania do nastepnej linii  */
+  display: flex;
+  /*wyrównanie danego elemwntu względem dzieci*/
+  align-items: center;
+  /*wyrównaie elementów w pudełkach dzieci*/
+  justify-content: center;
+  position: relative;
+}
+
+.bg {
+  /*animacja o nazwie bg, sześdziesięcio sekundowa, liniowa i powtarzana zawsze */
+  animation: bg 60s linear infinite;
+   /*tło*/
+  background-image: url("https://cdn.pixabay.com/photo/2016/06/05/07/59/stars-1436950_960_720.jpg");
+  height: 100%;
+  /*pozycjonowanie elementu dokonywane jest względem marginesu*/
+  position: absolute;
+  background-size: 1500px;
+  width: 4500px;
+}
+
+.xd {
+  /*kolor tła*/
+  background-color: rgb(173, 173, 202);
+  /*przejzystość*/
+  opacity: 0.75;
+  /*pozycjonowanie względem krawędzi okna*/
+  position: fixed;
+  top: 20%;
+  bottom: 20%;
+  right: 10%;
+  left: 10%;
+}
+
+
+@keyframes bg { 
+  /*wartości dla początku animacji*/
+0% {
+  left: 0;
+}
+/*wartości dla zakończenia animacji*/
+100% {
+  left: -1500px;
+}
+}

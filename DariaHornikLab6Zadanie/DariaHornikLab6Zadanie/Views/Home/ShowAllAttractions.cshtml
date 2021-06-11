@@ -1,0 +1,28 @@
+﻿<body style="background-image: url(https://cdn.pixabay.com/photo/2018/02/15/14/37/leaf-3155438__340.jpg); background-position: center; background-repeat:repeat">
+
+    @model List<Attraction>
+    @{
+        ViewData["Title"] = "Wszystkie atrakcje";
+    }
+
+    <h2>Wszystkie atrakcje</h2>
+
+    @foreach (var attr in Model)
+    {
+        <div>
+            <h2>@attr.Name</h2>
+            <h4>Lokalizacja: @attr.Place </h4>
+            <h4>Opis: @attr.Description</h4>
+            <h4>Typ: @attr.Type</h4>
+            <h4>Ocena: @attr.Grade</h4>
+
+            <hr />
+        </div>
+    }
+    <h4>@TempData["Info"]</h4>
+
+
+    <div>
+        @Html.ActionLink("Powrót do strony głównej", "Index")
+    </div>
+</body>

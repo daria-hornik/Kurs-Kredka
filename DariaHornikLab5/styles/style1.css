@@ -1,0 +1,135 @@
+/*import czcionki*/
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+
+/* stylowanie po tagach */
+body {
+    overflow: hidden;
+    /*brak marginesu z żadnej strony*/
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: "Lora";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.75;
+  }
+  
+  h1 {
+    font-size: 56px;
+    font-weight: 900;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 24px;
+    /*margines górny, prawy, dolny i lewy */
+    margin: 0 0 24px 0;
+    opacity: 0.75;
+  }
+  
+  a {
+    color: #fff;
+    outline: 0;
+    text-decoration: none;
+  }
+  
+
+/* stylowanie po clasach */
+  .wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: #348cb2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .bg {
+    /*animacja o nazwie bg, sześdziesięcio sekundowa, liniowa i powtarzana zawsze */
+    animation: bg 60s linear infinite;
+    /*tło*/
+    background-image: url("https://cdn.pixabay.com/photo/2016/06/05/07/59/stars-1436950_960_720.jpg");
+    height: 100%;
+    /*pozycjonowanie elementu dokonywane jest względem marginesu*/
+    position: absolute;
+    background-size: 1500px;
+    width: 4500px;
+  }
+  
+  .middle-box {
+    /*animacja o nazwie show, 1s, zwalniająca na początku i końcu, pojawiająca się z 1s opóżnienie i po zakończeniu wygląda tak samo*/
+    animation: show 1s ease-in-out 1s forwards;
+    opacity: 0;
+    text-align: center;
+    width: 100%;
+    margin-top: -300px;
+  }
+  
+  .nav {
+    /* rodzaj wyświetlania obiektów. wymagane do ich przerzucania do nastepnej linii  */
+    display: flex;
+    /*wyrównaie elementów*/
+    justify-content: center;
+  }
+  
+  .nav-item {
+    /*pezemiana wszystkich cech w czasie 0.3s z zwolnionym wejściem i wyjściem*/
+    transition: all 0.3s ease-in-out;
+    /*zaokrąglone brzegi*/
+    border-radius: 100%;
+    /*ramka pełna na 1px o kolorze białym*/
+    border: solid 1px #fff;
+    width: 72px;
+    height: 72px;
+    /*margines górny i dolny równy 0, a lewy i prawy 10px*/
+    margin: 0 10px;
+    /* rodzaj wyświetlania obiektów. wymagane do ich przerzucania do nastepnej linii  */
+    display: flex;
+    /*wyrównanie danego elemwntu względem dzieci*/
+    align-items: center;
+    /*wyrównaie elementów w pudełkach dzieci*/
+    justify-content: center;
+  }
+  
+  /*stylowanie po klasie po najechaniu myszą*/
+  .nav-item:hover {
+    /*kursor myszy, kiedy wskażnik jest nad elementem*/
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.175);
+  }
+  
+  /*stylowanie po klasie i tagu ( większa waga)*/
+  .nav-item a {
+    font-size: 28px;
+  }
+  
+
+
+/* animacje, pojawiający sie głowny div */
+  @keyframes show {
+    0% {
+        /*margines górny*/
+      margin-top: -268px;
+      /*widoczność*/
+      opacity: 0;
+    }
+    100% {
+      margin-top: -300px;
+      opacity: 1;
+    }
+  }
+  
+
+  /*przesuwające się tło*/
+  @keyframes bg { 
+      /*wartości dla początku animacji*/
+    0% {
+      left: 0;
+    }
+    /*wartości dla zakończenia animacji*/
+    100% {
+      left: -1500px;
+    }
+  }

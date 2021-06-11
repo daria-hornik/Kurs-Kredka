@@ -1,0 +1,2 @@
+Symulacaj banku
+Aplikacaj pozwala nam na podstawowe zachowania, możliwe do wykonania w banku(tj: monitorowanie na bieżąco stanu konta, wykonywanie przelewów, zasilanie konta). Dodatkowo ma funckie administratora, do której logujemy się specjalnym hasłem i loginem(admin, admin) i możemy przegladać wszystkich klientów banku. W bazie danych są zapisywane dane klientów oraz ogólna historia banku, jakie przelewy były wykonane w ostatnim czasie.

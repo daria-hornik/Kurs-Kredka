@@ -1,0 +1,10 @@
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab3\DariaHornikLab3\bin\Debug\DariaHornikLab3.exe.config
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab3\DariaHornikLab3\bin\Debug\DariaHornikLab3.exe
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab3\DariaHornikLab3\bin\Debug\DariaHornikLab3.pdb
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab3\DariaHornikLab3\obj\Debug\DariaHornikLab3.csprojAssemblyReference.cache
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab3\DariaHornikLab3\obj\Debug\DariaHornikLab3.Properties.Resources.resources
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab3\DariaHornikLab3\obj\Debug\DariaHornikLab3.csproj.GenerateResource.cache
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab3\DariaHornikLab3\obj\Debug\DariaHornikLab3.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab3\DariaHornikLab3\obj\Debug\DariaHornikLab3.exe
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab3\DariaHornikLab3\obj\Debug\DariaHornikLab3.pdb
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab3\DariaHornikLab3\obj\Debug\DariaHornikLab3.FormMain.resources

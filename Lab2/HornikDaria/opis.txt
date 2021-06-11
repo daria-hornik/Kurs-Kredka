@@ -1,0 +1,3 @@
+My pets
+Gra polega na opiekowaniu się zwierzętami. Na początku mamy do dyspozycji pieniądze wystarczające na zakup kilku zwierząt, by zdobyć więcej musimy chodzić do parku, gdzie łapiemy monety warte 10 coins.
+Musimy pamiętać o częstych wizytach u weterynarza i regularnych posiłkach, w przypadku choroby dostaniemy powiadomienie i wtedy koniecznie trzeba odwiedzić weterynarza.

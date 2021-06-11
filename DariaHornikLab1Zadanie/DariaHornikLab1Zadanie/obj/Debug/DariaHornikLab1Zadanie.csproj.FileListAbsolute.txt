@@ -1,0 +1,15 @@
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab1Zadanie\DariaHornikLab1Zadanie\bin\Debug\DariaHornikLab1Zadanie.exe.config
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab1Zadanie\DariaHornikLab1Zadanie\bin\Debug\DariaHornikLab1Zadanie.exe
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab1Zadanie\DariaHornikLab1Zadanie\bin\Debug\DariaHornikLab1Zadanie.pdb
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab1Zadanie\DariaHornikLab1Zadanie\obj\Debug\DariaHornikLab1Zadanie.csprojAssemblyReference.cache
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab1Zadanie\DariaHornikLab1Zadanie\obj\Debug\DariaHornikLab1Zadanie.FormStartPanel.resources
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab1Zadanie\DariaHornikLab1Zadanie\obj\Debug\DariaHornikLab1Zadanie.Properties.Resources.resources
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab1Zadanie\DariaHornikLab1Zadanie\obj\Debug\DariaHornikLab1Zadanie.csproj.GenerateResource.cache
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab1Zadanie\DariaHornikLab1Zadanie\obj\Debug\DariaHornikLab1Zadanie.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab1Zadanie\DariaHornikLab1Zadanie\obj\Debug\DariaHornikLab1Zadanie.exe
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab1Zadanie\DariaHornikLab1Zadanie\obj\Debug\DariaHornikLab1Zadanie.pdb
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab1Zadanie\DariaHornikLab1Zadanie\obj\Debug\DariaHornikLab1Zadanie.FormSignUp.resources
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab1Zadanie\DariaHornikLab1Zadanie\obj\Debug\DariaHornikLab1Zadanie.FormMainPage.resources
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab1Zadanie\DariaHornikLab1Zadanie\obj\Debug\DariaHornikLab1Zadanie.FormTransfre.resources
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab1Zadanie\DariaHornikLab1Zadanie\obj\Debug\DariaHornikLab1Zadanie.FormTopUpAccount.resources
+C:\Users\user\Documents\Daria\kurs_c#\DariaHornikLab1Zadanie\DariaHornikLab1Zadanie\obj\Debug\DariaHornikLab1Zadanie.FormAdvertisement.resources

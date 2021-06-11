@@ -1,0 +1,24 @@
+﻿<body style="background-image: url(https://cdn.pixabay.com/photo/2018/02/15/14/37/leaf-3155438__340.jpg); background-position: center; background-repeat:repea">
+
+    @model List<Attraction>
+    @{
+        ViewData["Title"] = "Nauka i kultura we Wrocławiu";
+    }
+
+    <h2>Nauka i kultura we Wrocławiu</h2>
+
+    @foreach (var attr in Model)
+    {
+        <div>
+            <h2>@attr.Name</h2>
+            <h4>Lokalizacja: @attr.Place </h4>
+            <h4>Opis: @attr.Description</h4>
+            <hr />
+
+        </div>
+    }
+
+    <div>
+        @Html.ActionLink("Powrót do strony głównej", "Index")
+    </div>
+</body>

@@ -1,0 +1,2 @@
+Księgarnie
+Aplikacja przedstawią uproszczoną wersję księgarni online. Możemy zamawiać książki z najbardziej pasującej nam księgarni. System można rozbudowywać poprzez dodawanie stałych klientów, nowych księganii i nowych pozycji do sprzedaży.

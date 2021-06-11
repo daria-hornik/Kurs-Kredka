@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/site.css")" />
+</head>
+
+<body style = "background-image: url(https://cdn.pixabay.com/photo/2018/02/15/14/37/leaf-3155438__340.jpg); background-position: center; background-repeat:repeat">
+    @model string
+    @{
+        ViewData["Title"] = "Home Page";
+    }
+
+    <div class="text-center">
+        <h1>Przewodnik po Wrocławiu</h1>
+        <p>
+            (łac. Vratislavia lub Wratislavia lub Budorgis[4], niem. Breslau Breslau i, dś. Brassel, cz. Vratislav, węg. Boroszló) – miasto na prawach powiatu w południowo-zachodniej Polsce, siedziba władz województwa dolnośląskiego i powiatu wrocławskiego. Położone w Europie Środkowej, na Nizinie Śląskiej, nad Odrą i czterema jej dopływami. Jest historyczną stolicą Dolnego Śląska, a także całego Śląska.
+
+            Jest głównym miastem aglomeracji wrocławskiej, a także największym miastem leżącym na Ziemiach Odzyskanych. Czwarte pod względem liczby ludności miasto w Polsce – 641 607 mieszkańców[3], piąte pod względem powierzchni – 292,82 km².
+
+            Miasto było stolicą księstwa wrocławskiego, siedzibą władz pruskiej prowincji Śląsk i rejencji wrocławskiej. Od 28 czerwca 1946 stolica województwa wrocławskiego. Od 1 stycznia 1999 stolica województwa dolnośląskiego, należy do Unii Metropolii Polskich i Eurocities.
+
+            W rankingu opublikowanym przez Globalization and World Cities Research Network, Wrocław został sklasyfikowany w X kategorii (Gamma –) miast o znaczeniu globalnym[5].
+
+            Wrocław został sklasyfikowany w pierwszej setce miast świata w rankingu firmy doradczej Mercer „Najlepsze miasta do życia” w 2015[6], 2016[7], 2017[8] i 2019[9], a także w pierwszej setce najbardziej inteligentnych miast na świecie (smart city) w raporcie IESE Cities in Motion Index w 2017[10] i 2019[11]. W roku 2016 był Europejską Stolicą Kultury, a od roku 2019 jest Miastem Literatury UNESCO.
+        </p>
+
+        <hr />
+
+        <p>
+            <br />
+            <b>Zabytki we Wrocławiu</b>
+            <br />
+            Dzisiaj chętnie przyjeżdżają tu turyści z całej Polski, a także z zagranicy. Wspaniały Rynek zawsze tętni życiem, a urodą dorównuje innym słynnym Rynkom - w Krakowie czy Poznaniu. Wśród zabytkowych kamienic uwagę przykuwa stojący na płycie Rynku charakterystyczny i cudny Ratusz - symbol miasta. W jego wnętrzu kryje się Muzeum Sztuki Mieszczańskiej - oddział Muzeum Miejskiego oraz słynna Piwnica Świdnicka - najstarsza restauracja w Europie.
+
+            Będąc we Wrocławiu nie można pominąć magicznego Ostrowa Tumskiego - najstarszej części Wrocławia ze wspaniałą Katedrą z XIII-XIV wieku. Gotycka świątynia jest najcenniejszym sakralnym zabytkiem miasta.
+
+            Słynna w całej Polsce jest też Panorama Racławicka - Oddział Muzeum Narodowego, który odwiedziło wielu z nas jeszcze w czasach szkolnych. Ale Wrocław oferuje znacznie więcej atrakcji i zabytków, których opisy znajdziesz w naszym portalu.
+        </p>
+
+        <hr />
+
+        <p>
+            <br />
+            <b>Atrakcje we Wrocławiu</b>
+            <br />
+            Jedną z największych atrakcji we Wrocławiu, a na pewno najwyższą, jest obecnie Sky Tower. To nowy symbol miasta - najwyższy biurowiec w Polsce liczący 212 m! Mieści się tu m.in. centrum handlowe, a na 49 piętrze powstał fantastyczny punkt widokowy, oblegany przez turystów.
+
+            Turyści chętnie odwiedzają też popularne w całym kraju wrocławskie Zoo, tym bardziej, że w 2014 roku udostępniono tu niezwykle nowoczesne i piękne Afrykarium z akwariami, basenami i tunelami pełnymi afrykanskich stworzeń. To unikat nie tylko w Polsce, ale i na świecie!
+        </p>
+        <p>
+            <div>
+                <b>Główne atrakcje można podzielić pod kątem:</b>
+                <dl>
+                    <dd>
+                        <!--napis, akcja, gdzie ma szukać-->
+                        <h5>@Html.ActionLink("Nauka i kultura", "ScienceAndCulture", "Home")</h5> <!--numer 1-->
+                    </dd>
+                    <dd>
+                        <h5>@Html.ActionLink("Przyroda i zieleń", "Nature", "Home")</h5><!--numer 2-->
+                    </dd>
+                    <dd>
+                        <h5> @Html.ActionLink("Architektura", "Architecture", "Home")</h5><!--numer 3-->
+                    </dd>
+                    <dd>
+                        <h5> @Html.ActionLink("Pokaz wysztyskie atrakcje", "ShowAllAttractions", "Home")</h5>
+                    </dd>
+                    <dd>
+                        <h5> @Html.ActionLink("Najnowsze atrakcje", "RecentlyAddAttraction", "Home")</h5>
+
+                </dl>
+            </div>
+        </p>
+        <p>Jeśli znasz inne miejsca warte odwiedzenia, podziel się nimi: </p>
+        <h5>@Html.ActionLink("Dodaj nową atrakcje", "AddNewAtractions", "Home")</h5>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+body {
+    overflow: hidden;
+    /*brak marginesu z żadnej strony*/
+    margin: 0;
+    padding: 0;
+    color:black;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.75;
+  }
+
+  .wrapped {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .bg {
+    /*animacja o nazwie bg, sześdziesięcio sekundowa, liniowa i powtarzana zawsze */
+    animation: bg 60s linear infinite;
+    background-image: url("https://cdn.pixabay.com/photo/2016/06/05/07/59/stars-1436950_960_720.jpg");
+    height: 100%;
+    /*pozycjonowanie elementu dokonywane jest względem marginesu*/
+    position: absolute;
+    background-size: 1500px;
+    width: 4500px;
+  }
+
+  .margin {
+    height: 100;
+    /*marginesy z każdej strony na 100px*/
+    margin: 100px;
+  }
+
+  .xd {
+    background-color: rgb(173, 173, 202);
+    opacity: 0.75;
+    /*pozycjonowanie elementu dokonywane jest względem krawędzi okna */
+    position: fixed;
+    /*ustaiwnie pudełka*/
+    top: 20%;
+    bottom: 20%;
+    right: 10%;
+    left: 10%;
+  }
+
+
+  @keyframes bg { 
+    /*wartości dla początku animacji*/
+  0% {
+    left: 0;
+  }
+  /*wartości dla zakończenia animacji*/
+  100% {
+    left: -1500px;
+  }
+}

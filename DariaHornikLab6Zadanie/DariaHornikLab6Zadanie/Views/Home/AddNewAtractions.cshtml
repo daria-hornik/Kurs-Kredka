@@ -1,0 +1,70 @@
+﻿@{
+        ViewData["Title"] = "Dodawanie nowej atrakcji";
+}
+<body style="background-image: url(https://cdn.pixabay.com/photo/2018/02/15/14/37/leaf-3155438__340.jpg); background-position: center; background-repeat:repeat">
+    @model AddNewAttractionFormViewModel
+    @{
+        ViewBag.Title = "Atrakcje";
+    }
+
+    <!--Formularz kontaktowy-->
+    @using (Html.BeginForm("AddNewAtractions", "Home", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <h4>Dodaj nową atrakcje</h4>
+            <hr />
+            <!--autor-->
+            <div class="form-group">
+                @Html.LabelFor(model => Model.AuthorName, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.AuthorName, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+
+            <!--nazwa atrakcji-->
+            <div class="form-group">
+                @Html.LabelFor(model => Model.AttractionsName, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.AttractionsName, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+
+            <!--miejsce-->
+            <div class="form-group">
+                @Html.LabelFor(model => Model.Place, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Place, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+
+            <!--opis atrakcji-->
+            <div class="form-group">
+                @Html.LabelFor(model => Model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+            <!--typ atrakcji-->
+            <div class="form-group">
+                @Html.LabelFor(model => Model.Type, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    <h5>1-Nauka i kultura, 2-Zieleń i parki, 3-Architektura</h5>
+                    @Html.EditorFor(model => Model.Type, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+
+            <!--guzik-->
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" id="submit" value="Dodaj" class="btn btn-success" />
+                </div>
+            </div>
+        </div>
+    }
+
+    <div>
+        @Html.ActionLink("Powrót do strony głównej", "Index")
+    </div>
+</body>

@@ -1,0 +1,1 @@
+INSERT INTO dbo.Customer VALUES ('name', 'surname', 'login', 'pin', 'accountBalance', 'accoutnNumber');
